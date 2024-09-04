@@ -18,6 +18,5 @@ public class Main {
 
         // Check balance
         savings.checkBalance();
-
     }
 }
