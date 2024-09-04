@@ -20,6 +20,6 @@ public class Main {
         savings.checkBalance();
 
         // Print the string representation of the SavingsAccount object
-        System.out.println(savings.toString());
+        System.out.println(savings);
     }
 }
