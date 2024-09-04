@@ -18,14 +18,12 @@ public class SavingsAccount {
     System.out.println("You just deposited " + amountToDeposit);
     }
 // Method to return the amountToWithdraw
-    public int withdraw(int amountToWithdraw){
+    public void withdraw(int amountToWithdraw){
         if (amountToWithdraw > balance) {
             System.out.println("Insufficient funds! You cannot withdraw");
-            return 0;
         } else {
             balance = balance - amountToWithdraw;
             System.out.println("You just withdrew " + amountToWithdraw);
-            return amountToWithdraw;
         }
     }
 
