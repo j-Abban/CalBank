@@ -16,11 +16,15 @@ public class SavingsAccount {
     balance = balance + amountToDeposit;
     System.out.println("You just deposited " + amountToDeposit);
     }
-// Method to Withdraw money from the Savings Account
+// Method to return the amountToWithdraw
     public int withdraw(int amountToWithdraw){
         balance = balance - amountToWithdraw;
         System.out.println("You just withdrew " + amountToWithdraw);
         return amountToWithdraw;
     }
 
+// Method to return a string
+   public String toString(){
+        return "This is a savings account with " + balance + " saved.";
+   }
 }
